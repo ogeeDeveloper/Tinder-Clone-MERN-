@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@200;300;400;500;700&display=swap');
+
+html,body{
+  margin: 0;
+  padding: 0;
+}
+
+*{
+  font-family: "Readux Pro", sans-serif;
+}
+
+body{
+  text-align: center;
+}
+
+.primary-button{
+  color: #fff;
+  text-transform: uppercase;
+  background: linear-gradient(45deg, #fe3072, #ff5940);
+  font-size: 1em;
+  padding: 12px 30px;
+  border-radius: 30px;
+  border: none;
+  cursor: pointer;
+}
+
+.primary-button:hover{
+  background: linear-gradient(260deg, #ff5940, #fe3072);
+}
+
