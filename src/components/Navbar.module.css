@@ -20,4 +20,10 @@
     border-radius: 10px;
     border: none;
     margin: 10px;
+    cursor: pointer;
+}
+
+nav_button:disabled{
+    background-color: rgb(189, 180, 180);
+    color: rgb(160, 38, 75);
 }

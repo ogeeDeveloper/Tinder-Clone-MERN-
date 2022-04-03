@@ -28,3 +28,29 @@ body{
   background: linear-gradient(260deg, #ff5940, #fe3072);
 }
 
+.secondary-button{
+  color: rgb(121, 119,119);
+  background: #fff;
+  font-weight: 500px;
+  font-size: 15px;
+  text-transform: uppercase;
+  padding: 12px 30px;
+  border-radius: 30px;
+  border: solid 2px rgb(121, 119, 119);
+  margin: 6px;
+  cursor: pointer;
+}
+
+.secondary-button:hover{
+  color: rgb(48, 48, 48);
+  border: solid 2px rgb(121, 119, 119);
+}
+
+h2{
+  font-style: italic;
+}
+
+.primary-title{
+  font-size: 90px;
+  color: #fff;
+}

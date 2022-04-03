@@ -1,0 +1,26 @@
+.auth_modal{
+    position: absolute;
+    top: 175px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 360px;
+    height: 600px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 40px;
+}
+
+.close_icon{
+    float: right;
+}
+
+.auth_modal form{
+    display: flex;
+    flex-direction: column;
+}
+
+.auth_modal input[type=password],.auth_modal input[type=email]{
+    padding: 8px;
+    margin: 8px;
+    font-size: 17px;
+}
